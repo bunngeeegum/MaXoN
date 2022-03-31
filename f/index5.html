@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+ body{
+     background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614508322_88-p-belii-fon-dlya-fotoshopa-103.jpg);
+            background-color: rgb(252, 228, 176);
+            color: rgb(5, 4, 3) ;
+            font-family: 'Courier New', Courier, monospace;
+  }
+.d1, .d2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(247, 124, 67);
+}
+.ank{
+    font-size: 25px;
+    font-style: unset;
+}
+.qq1{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 4px rgb(255, 157, 77) solid;
+    margin-bottom: 25px;
+    height: 34px;
+    width: 270px;
+}
+.kn1{
+    height: 100px;
+    width: 270px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-radius: 8px;
+  transition: 1s;
+}
+.kn1:hover{
+    height: 100px;
+    width: 270px;
+    background-color: rgb(194, 118, 105);
+    border: 2px black solid;
+    border-radius: 8px;
+   transition: 1s;
+   cursor: pointer;
+}
+.kn2{
+    height: 100px;
+    width: 270px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-radius: 8px;
+  transition: 1s;
+}
+.kn2:hover{
+    height: 100px;
+    width: 270px;
+    background-color: rgb(194, 118, 105);
+    border: 2px black solid;
+    border-radius: 8px;
+   transition: 1s;
+   cursor: pointer;
+}
+
+.kn3{
+    height: 100px;
+    width: 270px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-radius: 8px;
+  transition: 1s;
+}
+.kn3:hover{
+    height: 100px;
+    width: 270px;
+    background-color: rgb(194, 118, 105);
+    border: 2px black solid;
+    border-radius: 8px;
+   transition: 1s;
+   cursor: pointer;
+}
+
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+.problem{
+    top: -600px;
+    left:100px ;
+    position: relative;
+}
+.problem1{
+    top: -600px;
+    left: 700px;
+    position: relative;
+}
+    </style>
+<body>
+    <div class="body1">
+    <h1><p class="d1">Оформление покупки</p></h1>
+    <!--анкета оформления покупки-->
+    <div class="ank">
+    <forn action="check.php"method="post">
+        <p>Фамилия</p><input class="qq1" type="text"name="lastname"required pattern="[А-Я]"form="personal information">
+        <p>Имя</p><input class="qq1" type="text"name="firstname"required pattern="[А-Я]"form="personal information">
+        <p>Номер телефона</p><input class="qq1" type="tel"name="tel" pattern="+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"placeholder="+7*** *** ** **"form="contact information">
+        <p>Эл. почта</p><input class="qq1" type="email"name="email" pattern="[A-Z]"form="contact information">
+    </forn>
+</div>
+   
+    <h1><p class="d2">Способы оплаты</p></h1>
+<div class="kn">
+
+    <button  onclick="document.location='index6.html'"type="button"class="kn1">На сайте</button>
+    <button onclick="document.location='index7.html'"type="button" class="kn2">При получении в магазине</button>
+    <button  onclick="document.location='index8.html'"type="button"class="kn3">Потверждение заказа</button>
+
+</div>
+</div>
+<img class="problem" src="оформление покупки.png">
+</body>
+</html>

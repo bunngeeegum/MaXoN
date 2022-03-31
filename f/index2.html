@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <style>
+        body{
+           
+          background-image: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1614508322_88-p-belii-fon-dlya-fotoshopa-103.jpg) ;
+               color: rgb(5, 4, 3) ;
+               font-family: 'Courier New', Courier, monospace;
+          }
+        .body1, .body2, .body3{
+            display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+        }
+    .hz{
+        display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    }
+        .t2{
+     color: black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 270px;
+    height: 100px;
+    background-color: orange;
+    border: orange 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 2px black solid;
+    margin: 10px;
+   
+}
+
+        .b2, .b1, .a2{
+    color: black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 270px;
+    height: 100px;
+    background-color: orange;
+    border: orange 5px solid;
+    border-radius: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 10px;
+   
+}
+.txt1{
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.tov1, .tov2, .tov3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 40px;
+}
+.kn12, .kn34, .kn56{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.kn{
+    height: 100px;
+    width: 270px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 10px;
+  transition: 1s;
+}
+.kn:hover{
+  height: 100px;
+  width: 270px;
+  background-color: rgb(194, 118, 105);
+    border: 2px black solid;
+    border-radius: 8px;
+   transition: 1s;
+   margin: 10px;
+   cursor: pointer;
+}
+.img2{
+  height: 450px;
+  width: 600px;
+  border-radius: 15px;
+  border: 2px rgb(134, 45, 45) solid;
+  transition: 1s;
+  position: relative;
+  left: 1px;
+  top: 10px;
+  margin: 40px;
+}
+.img2:hover{
+  height: 450px;
+  width: 600px;
+  border-radius: 15px;
+  border: 2px rgb(134, 45, 45) solid;
+  filter: drop-shadow(15px 15px 15px rgba(58, 38, 38, 0.801));
+}
+.img3{
+  height: 450px;
+  width: 600px;
+  border-radius: 15px;
+  border: 2px rgb(134, 45, 45) solid;
+  transition: 1s;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  margin: 70px;
+}
+.img3:hover{
+  height: 450px;
+  width: 600px;
+  margin: 70px;
+  border-radius: 15px;
+  border: 2px rgb(134, 45, 45) solid;
+  filter: drop-shadow(15px 15px 15px rgba(58, 38, 38, 0.801));
+}
+.img4{
+  height: 450px;
+  width: 600px;
+  border-radius: 15px;
+  border: 2px rgb(134, 45, 45) solid;
+  transition: 1s;
+  position: relative;
+  left: 1px;
+  top: 10px;
+  margin: 40px;
+}
+.img4:hover{
+  height: 450px;
+  width: 600px;
+  border-radius: 15px;
+  border: 2px rgb(134, 45, 45) solid;
+  filter: drop-shadow(15px 15px 15px rgba(58, 38, 38, 0.801));
+}
+.inf1, .inf2, .inf3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(247, 124, 67);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.name{
+    color: chocolate;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 100px;
+    left: 1000px;
+    position: relative;
+}
+.logo{
+    width: 350px;
+         height: 350px;
+
+}
+.d3{
+    color: black;
+}
+.img1{
+    width: 1500px;
+    height: 200px;
+   top: -380px;
+   left: 400px;
+    position: relative;
+}
+
+.footer{
+    height: 180px;
+    width: 1920px;
+    background-color: rgb(18, 15, 20);
+    color: burlywood;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.foot1{
+    font-size: 25px;
+    color: rgb(201, 108, 42);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot2{
+    color: burlywood;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.kn2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: orange 3px solid;
+    background-color: whitesmoke;
+    margin: 10px;
+  transition: 1s;
+    left:-100px ;
+    top: 100px;
+    position: relative;
+}
+.kn2:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: rgb(181, 134, 48) 3px solid;
+    background-color: rgb(189, 178, 178);
+    margin: 10px;
+  transition: 1s;
+    left:-100px ;
+    top: 100px;
+    position: relative;
+}
+.kn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: orange 3px solid;
+    background-color: whitesmoke;
+    margin: 10px;
+  transition: 1s;
+    left:-150px ;
+    top: 100px;
+    position: relative;
+}
+.kn1:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: rgb(181, 134, 48) 3px solid;
+    background-color: rgb(189, 178, 178);
+    margin: 10px;
+  transition: 1s;
+    left:-150px ;
+    top: 100px;
+    position: relative;
+}
+.kn3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: orange 3px solid;
+    background-color: whitesmoke;
+    margin: 10px;
+  transition: 1s;
+    left:860px ;
+    position: relative;
+}
+.kn3:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: rgb(181, 134, 48) 3px solid;
+    background-color: rgb(189, 178, 178);
+    margin: 10px;
+  transition: 1s;
+    left:860px ;
+    position: relative;
+}
+.kn4{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: orange 3px solid;
+    background-color: whitesmoke;
+    margin: 10px;
+  transition: 1s;
+    left:920px ;
+    position: relative;
+}
+.kn4:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: rgb(181, 134, 48) 3px solid;
+    background-color: rgb(189, 178, 178);
+    margin: 10px;
+  transition: 1s;
+    left:920px ;
+    position: relative;
+}
+.b1{
+    top:-400px ;
+    left:-500px ;
+    position: relative;
+}
+.b2{
+  top:-400px ;
+ left:-500px ;
+ position: relative; ;
+}
+
+   </style>
+<body>
+    <div class="body1">
+
+<div class="header">
+     <img class="logo"src="MaXoN.png">
+      <img class="img1"src="https://catherineasquithgallery.com/uploads/posts/2021-02/1614321870_42-p-risunki-s-raduzhnim-fonom-48.jpg">
+     <h1><p class="name">Kitano</p></h1>
+    
+
+    <div class="hz"><div class="kn57">
+    <button  onclick="document.location='index3.html'"type="button"class="kn1">2стр.</button>
+    <button  onclick="document.location='index4.html'"type="button"class="kn2">3стр.</button>
+</div>
+     
+        <div class="b1">
+            <button  onclick="document.location='index.html'"type="button"class="t2">
+            <p class="a2">К главной</p></button> 
+        </div>
+    
+        <div class="b2">
+              <button class="t2">
+              <a class=" a2" href="#top">Поддержка</a></button>
+        </div>
+    
+              
+           
+           
+       </div>
+   </div>   
+</div>
+    
+<div class="tov1">
+   <img class="img2" src="https://tehnoteca.ru/img/801/800478/kitano_kr_kappa_07_1.jpg">
+   <div class="body2">
+    <p class="txt1">
+        <p class="inf1">Компания Kitano представляет кондиционер Kitano KR-Kappa-07.</p>
+        <p>Основные характеристики:</p><p>цвет - серый;</p> <p>тип - сплит-система;</p>
+         <p>режимы работы - охлаждение/обогрев/осушение/вентиляция</p>
+         <p> тип монтажа - настенный.</p> 
+        <p > Доставка и самовывоз товара «Kitano KR-Kappa-07» в Саратове.</p>
+        <P > Перед тем, как купить в Саратове прочитайте отзывы и
+         посмотрите характеристики.</P>
+     </p>
+<div class="kn12">
+    
+    <button  onclick="document.location='index5.html'"type="button"class="kn">Покупаю</button>
+</div>
+</div>
+</div>
+
+<div class="tov2">
+   <img class="img3" src="https://tehnoteca.ru/img/801/800478/kitano_kr_kappa_07_1.jpg">
+   <div class="body3">
+   <p class="txt2"> 
+    <p class="inf2">Компания Kitano представляет кондиционер Kitano KPA-Kappa-008.</p><p>Основные характеристики:</p>
+    <p>тип кондиционера - настенная сплит-система;</p> <p>площадь возможного помещения для использования: 21 – 30 м²;</p>
+    <p> режимы работы кондиционера: охлаждение / обогрев;</p><p>дополнительные режимы: осушение, ночной, вентиляция;</p>
+    <p>особенности: пульт ДУ, регулировка направления воздушного потока, таймер включения/выключения;</p>
+    <p>тип фильтра: дезодорирующий</p> <p>максимальный уровень шума: 36 дБ.</p>
+   </p>
+   
+   <div class="kn34">
+   
+   <button  onclick="document.location='index5.html'"type="button"class="kn">Покупаю</button>
+   </div>
+</div>
+</div>
+
+<DIv class="tov3">
+   <img class="img4" src="https://tehnoteca.ru/img/801/800478/kitano_kr_kappa_07_1.jpg">
+   <div class="body4">
+   <p class="txt3">
+    <p class="inf3">Компания Kitano представляет кондиционер Kitano KP-Kappa-08.</p>
+    <p>тип кондиционера: настенная сплит-система; </p>
+    <P>площадь возможного помещения для использования: 31 – 54 м²;</P>
+    <P>мощность кондиционера (BTU): 12;</P>
+    <p>режим работы: охлаждение / обогрев;</p>
+    <p> дополнительные режимы: осушение, ночной, вентиляция;</p> 
+    <P> особенности: пульт ДУ, регулировка направления воздушного потока, таймер включения/выключения, индикация работы;</P>
+    <p>тип фильтра: дезодорирующий; </p>
+    <p>максимальный уровень шума: 39 дБ</p>
+   </p>
+
+   <div class="kn56">
+     
+     <button  onclick="document.location='index5.html'"type="button"class="kn">Покупаю</button>
+   </div>
+</div>
+</div>
+<div class="kn58">
+    <button  onclick="document.location='index3.html'"type="button"class="kn3">2стр.</button>
+    <button  onclick="document.location='index4.html'"type="button"class="kn4">3стр.</button>
+</div>
+  <div class="footer">
+      <a name="top"></a> 
+    <p class="foot1">Поддержка</p>
+    <p>В случае некорректной работы сайта вы можете сообщить об ошибке вот</p>
+    <a class="foot2"href="index1.html"> здесь. </a>
+    <p class="foot3">тел: +7 092 792 4291</p>
+    </div>
+
+</body>
+</html>

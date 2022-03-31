@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body{
+            background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614508322_88-p-belii-fon-dlya-fotoshopa-103.jpg);
+            background-color: rgb(252, 228, 176);
+            color: rgb(5, 4, 3) ;
+            font-family: 'Courier New', Courier, monospace;
+           
+        }
+
+.ohhh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.oh{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    font-size: 25px;
+    flex-direction: column;
+}
+.ohh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.kn1{
+    height: 100px;
+    width: 270px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 6px;
+  transition: 1s;
+}
+.kn1:hover{
+    height: 100px;
+    width: 270px;
+    background-color: rgb(194, 118, 105);
+    border: 2px black solid;
+    border-radius: 8px;
+   transition: 1s;
+   margin: 6px;
+   cursor: pointer;
+}
+.kn2{
+    height: 100px;
+    width: 270px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 6px;
+  transition: 1s;
+}
+.kn2:hover{
+    height: 100px;
+    width: 270px;
+    background-color: rgb(194, 118, 105);
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 6px;
+   transition: 1s;
+   cursor: pointer;
+}
+.a1 {
+    background-color: antiquewhite;
+    border-radius: 4px;
+    border: 4px rgb(255, 157, 77) solid;
+    height: 34px;
+    width: 270px;
+}
+.a2{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 4px rgb(255, 157, 77) solid;
+    height: 380px;
+    width: 400px;
+}
+.a3 {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 4px rgb(255, 157, 77) solid;
+    margin-bottom: 25px;
+    height: 34px;
+    width: 270px;
+}
+.problem{
+    top: -600px;
+   
+    position: relative;
+}
+.problem1{
+    top: -600px;
+    left: 500px;
+    position: relative;
+}
+    </style>
+
+<body>
+   <div class="ohhh">
+
+       <div class="oh">
+   <forn action="check.php"method="post">
+       <p>Адрес эл. почты</p><input class="a1" type="email"name="email"pattern="[A-Z]"form="contact information">
+       <p>Опишите свою проблему</p><input class="a2" type="text"name="firstname"pattern="[А-Я]"form="personal information">
+       <p>ФИО</p><input class="a3" type="text"name="middlename"pattern="[А-Я]"form="personal information">
+    </div>
+
+     <div class="ohh">
+      <button class="kn1"onclick="document.location='index.html '" type="submit">Отправить</button>
+      <button class="kn2"onclick="document.location=' '" type="reset">Очистить</button></div>
+    </forn>
+</div>
+<img class="problem"src="поддержка.png">
+</body>
+</html>
